@@ -13,6 +13,10 @@ class LoginForm extends React.Component {
     })
   }
 
+  handleSubmit = () => {
+    return null;
+  }
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
